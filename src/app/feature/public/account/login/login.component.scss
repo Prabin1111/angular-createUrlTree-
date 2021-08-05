@@ -1,0 +1,23 @@
+.details {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+
+  &__title {
+    font-size: 45px;
+    font-weight: 900;
+  }
+
+  &__discriptions{
+     
+    & > :not(:last-child) {
+      padding-top: 10px;
+    }
+  }
+
+  &__step {
+    font-size: 30px;
+  }
+
+
+}

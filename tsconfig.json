@@ -19,7 +19,45 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@env/*": [
+        "./src/environments/*"
+      ],
+      "@guard/*": [
+        "./src/app/core/guard/*"
+      ],
+      "@core/*": [
+        "./src/app/core/*"
+      ],
+      "@coreServices/*": [
+        "./src/app/core/services/*"
+      ],
+      "@feature/*": [
+        "./src/app/feature/*"
+      ],
+      "@layout/*": [
+        "./src/app/core/layout/*"
+      ],
+      "@publicLayout/*": [
+        "./src/app/core/layout/public/*"
+      ],
+      "@securedLayout/*": [
+        "./src/app/core/layout/secured/*"
+      ],
+      "@publicFeature/*": [
+        "./src/app/feature/public/*"
+      ],
+      "@secureFeature/*": [
+        "./src/app/feature/secured/*"
+      ],
+      "@sharedModule/*": [
+        "./src/app/shared/*"
+      ],
+      "@sharedServices/*": [
+        "./src/app/shared/services/*"
+      ],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
